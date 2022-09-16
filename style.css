@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(img/bg.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#logo{
+    size: 30px;
+    line-height: 55.4px;
+    font-family: 'Sedan SC';
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    line-height: 55px;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+nav ul li:hover{
+    border: 2px solid #FE7D6A;
+    padding: 4px;
+    border-radius: 17px;
+}
+form{
+    display: flex;
+    height: 33px;
+    background: white;
+    padding: 7px;
+    border: 2px solid #FE7D6A;
+    border-radius: 30px;
+}
+form input{
+    border: none;
+    border-radius: 30px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 33px;
+    font-style: normal;
+    color: #D46858;
+    padding: 2px;
+}
+
+form button{
+    background-color: inherit;
+    border: none;
+}
+.content{
+    width: 70%;
+    margin: 15% auto auto auto;
+    text-align: center;
+}
+.content1 h1{
+    font-family: 'Lucida Bright';
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-style: italic;
+}
+.content1 h1 span{
+    color:#FC46AA;
+}
+.content img{
+    margin-top: 5px;
+    height: 20px;
+}
+.content2{
+    margin-top: 10px;
+}
+.content2 p{
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-style: normal;
+}
+.Sponsor{
+    background-color: #f360b139;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-bottom: 10px;
+}
+.Sponsor img{
+    max-width: 90%;
+    margin: auto;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+}
+.skills-container div{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid #FE7D6A;
+    padding: 20px;
+    width: 25%;
+    min-height: 250px;
+}
+.skills-container img{
+    height: 50px;
+}
+.skills-container h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'Nunito';
+    margin-top: 10px;
+}
+.skills-container p{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-family: 'Nunito';
+}
+
+.skills-container a{
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: underline;
+    font-family: 'Nunito';
+   color: #FD6F95;
+}
+#img-h1{
+    display: flex;
+    padding-left: 15px;
+    color: #D46858;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: 'Nunito';
+}
+
+#img-h1 img{
+    width: 30px;
+    transform: translateY(20px);
+    height: auto;
+}
+.Model-images{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.Model-images div{
+    width: 80%;
+    height: auto;
+    margin-top: 15px;
+}
+.Model-images div img{
+    width: inherit;
+}
+.Model-images div p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 38px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+.model-section  button{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    margin-left: 15px;
+    border-radius: 17px;
+    background: inherit;
+    border: 3px solid #FC46AA;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Nunito';
+}
+.model-section  button img{
+    width: 15px;
+}
+#arrow{
+    width: 5px;
+}
+.hottest-glam{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #D46858;
+    font-family: 'Nunito';
+    padding-left: 20px;
+    width: 80%;
+    margin-top: 10PX;
+    margin-bottom: 15px;
+}
+.hottest-glam-img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.hottest-glam-img img{
+    max-width: 70%;
+    height: auto;
+}
+#middleImg{
+    transform: translateY(40px);
+}
+.subcribe{
+    background-image: url(img/subcribebg.png);
+    width: 80%;
+    height: 300px;
+    margin: 50px auto auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.subcribe div{
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Nunito;
+    color: #FFFFFF;
+}
+.input-subcribe {
+    background-color: rgba(255, 255, 255, 0.349);
+    height: 36px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+}
+.input-subcribe input{
+    border: none;
+    height: inherit;
+    background: transparent;
+    border-radius: 50px;
+}
+.input-subcribe  button{
+    background-color: #FD6F95;
+    border: none;
+    padding: 10px;
+    border-radius: inherit;
+    flex: none;
+}
+footer{
+    margin-top: 20px;
+    background-color: #FC46AA;
+    color: white;
+    text-align: center;
+}
+footer p{
+    text-transform: uppercase;
+}
+.internal-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28PX;
+    font-size: 1rem;
+    font-family: 'Nunito';
+    padding: 10PX;
+}
+.logo img{
+    height: 20px;
+    margin-top: 10px;
+}
+.internal-footer div ul li{
+   list-style: none;
+}
